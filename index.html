@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Zadanie 8_7 Tablice</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+    <h1>
+        Zadanie nr 6 z modułu 8 FE 2017-02 (dashboard)
+    </h1>
+    <h2>8. Wprowadzenie do JavaScriptu - technologii, która odmieniła internet (moduł)</h2>
+    <h3>8.7. Tablice</h3>
+    <p> Zadanie: Łączymy tablice!
+        <ul>
+            <li>Zadeklaruj dwie tablice: jedną zawierające imiona damskie oraz drugą - męskie.</li>
+            <li>Połącz dwie tablice w jedną zawierającą wszystkie imiona.</li>
+            <li>Za pomocą dostępnych funkcji i przy użyciu instrukcji warunkowej spróbuj dodać jakieś imię.</li>
+            <li>Uwaga: jeśli imię znajduje się już w tablicy, nie może być dodane ponownie.</li>
+            <li>Sprawdź, czy wszystko działa prawidłowo. Czy dodawanie nowych imion do tablicy jest możliwe, a jednocześnie zostało
+                zablokowane dodawanie duplikatów?</li>
+        </ul>
+    </p>
+    <p>
+        W pliku 'scripts.js' zadeklaruj dwie tablice: var femaleNames = ['Asia', 'Kasia', 'Ola', 'Jola']; var maleNames = ['Piotrek',
+        'Marek', 'Arek', 'Jarek']; Użyj funkcji concat(), aby połączyć ze sobą powyższe dwie tablice i przypisz je do zmiennej
+        allNames. Poniżej zadeklaruj nową zmienną zawierającą napis var newName ='Marian' Stwórz instrukcję warunkową if
+        i sprawdź, czy wartość wyrażenia allNames.indexOf(newName) === -1. Jeśli powyższe wyrażenie jest spełnione, za pomocą
+        funkcji push() dodaj tę zmienną do tablicy allNames. Stwórz nowe repozytorium i wyślij tam swoje zadanie, a link
+        do niego wklej poniżej. Pamiętaj o udostępnieniu repozytorium swojemu mentorowi.
+    </p>
+    </div>
+    <div>
+        <h2>Prezentacja bazy imion w różnych kontekstach</h2>
+        <h3>Baza kobiet</h3>
+        <p id="calaTablicaKobiet"></p>
+        <h3>Baza mężczyzn</h3>
+        <p id="calaTablicaMezczyzn"></p>
+        <h3>Dodawane imię</h3>
+        <p id="noweImie"></p>
+        <h3>Pełna baza imion</h3>
+        <p id="allNames"></p>
+    </div>
+    <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+
+</html>
